@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Fill the form for Booking your Flights</h1>
+<form action = "BookFlight" method = "post">
+<label>Name:</label>
+<input type="text" name="username">
+<br>
+
+<label>Gender:</label>
+<label>Male</label>
+ <input type="radio" id="male" name="GENDER" value="MALE">
+ <label>Female</label>
+ <input type="radio" id="female" name="GENDER" value="FEMALE"> 
+ <br> 
+ 
+ <label>Age:</label>
+  <input type="number" name="age">
+  <br>
+  <label>EMAIL ID</label>
+  <input type="email" name="email">
+  <br>
+  
+  
+  <label>PHONE NO:</label>
+  <input type="tel" id="phone" name="phone" placeholder="mobile num" pattern="[0-9]{10}" required>  
+  
+  <br>
+  
+  <input type="submit" value="Book">
+  </form>
+</body>
+</html>
